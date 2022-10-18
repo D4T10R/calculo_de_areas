@@ -1,3 +1,5 @@
+import enums.Color;
+
 public class Circle extends Shape {
     
     // ATRIBUTOS
@@ -9,7 +11,8 @@ public class Circle extends Shape {
     public Circle() {
     }
 
-    public Circle(Double radius) {
+    public Circle(Color color, Double radius) {
+        super(color);
         this.radius = radius;
     }
     // CONSTRUTORES
